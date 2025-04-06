@@ -15,7 +15,11 @@ A simple, interactive app to help you track your spending, stay on budget, and g
 ---
 
 ### 🖼️ Quick Preview
-*(Add screenshots or a short GIF of the dashboard here to show off the UI)*
+
+![image](https://github.com/user-attachments/assets/ece6637b-dea1-436d-a73d-847845a3f837)
+![image](https://github.com/user-attachments/assets/6ca6dd03-34f1-457c-975f-17e1f1b127e2)
+
+
 
 ---
 
