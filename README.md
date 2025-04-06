@@ -1,72 +1,75 @@
-💸 Personal Finance Tracker
+# 💸 Personal Finance Tracker
+
 A simple, interactive app to help you track your spending, stay on budget, and get a better sense of where your money goes. Built with Python, Dash, and Plotly.
 
-✨ What It Does
-Loads your transaction data from a CSV file
+---
 
-Groups and analyzes expenses by category
+### ✨ What It Does
 
-Compares spending to preset budgets (and warns you if you're over)
+- Loads your transaction data from a CSV file
+- Groups and analyzes expenses by category
+- Compares spending to preset budgets (and warns you if you're over)
+- Lets you explore your spending visually with pie and line charts
+- Includes an interactive dashboard where you can filter by date
 
-Lets you explore your spending visually with pie and line charts
+---
 
-Includes an interactive dashboard where you can filter by date
+### 🖼️ Quick Preview
+*(Add screenshots or a short GIF of the dashboard here to show off the UI)*
 
-🖼️ Quick Preview
-(Add screenshots or a short GIF of the dashboard here to show off the UI)
+---
 
-🧰 Tools & Libraries
-Python
+### 🧰 Tools & Libraries
 
-Pandas for data wrangling
+- **Python**
+- **Pandas** for data wrangling
+- **Matplotlib** and **Plotly** for graphs
+- **Dash** for the web dashboard
 
-Matplotlib and Plotly for graphs
+---
 
-Dash for the web dashboard
+### 🚀 How to Run It
 
-🚀 How to Run It
-Clone this repo
-
-bash
-Copy
-Edit
+1. **Clone this repo**
+```bash
 git clone https://github.com/yourusername/personal-finance-tracker.git
 cd personal-finance-tracker
-Install the dependencies
+```
 
-bash
-Copy
-Edit
+2. **Install the dependencies**
+```bash
 pip install -r requirements.txt
-(Or manually: pip install pandas matplotlib plotly dash)
+```
 
-Add your data
+(Or manually: `pip install pandas matplotlib plotly dash`)
 
-Make sure you have a file called transactions.csv in the project folder.
+3. **Add your data**
+
+Make sure you have a file called `transactions.csv` in the project folder.  
 It should have three columns:
 
-yaml
-Copy
-Edit
+```
 Date,Category,Amount
 2025-01-05,Food,23.5
 2025-01-10,Rent,1200
 2025-01-12,Transport,45.9
-Run the app
+```
 
-bash
-Copy
-Edit
+4. **Run the app**
+```bash
 python finance_tracker.py
-Then open your browser and go to http://127.0.0.1:8050/.
+```
 
-📊 Budgets & Alerts
+Then open your browser and go to `http://127.0.0.1:8050/`.
+
+---
+
+### 📊 Budgets & Alerts
+
 Right now, the app checks for overspending in these categories:
 
-Food: $500
+- Food: $500  
+- Rent: $1000  
+- Transport: $200  
 
-Rent: $1000
-
-Transport: $200
-
-You can change these values in the analyze_data function to fit your own goals.
+You can change these values in the `analyze_data` function to fit your own goals.
